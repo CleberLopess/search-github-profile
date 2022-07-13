@@ -1,0 +1,65 @@
+.containerInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.containerInputs input {
+  margin-bottom: 10px;
+}
+
+.containerInputs input:last-child {
+  margin-bottom: 0;
+}
+
+.wrapperSlect {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.contentSlect {
+  display: flex;
+}
+
+.contentSlect select {
+  margin-right: 10px;
+}
+
+.contentSlect select:last-child {
+  margin-bottom: 0;
+}
+
+.containerButton {
+  margin-top: 10px;
+}
+
+.containerResult {
+  margin-top: 20px;
+
+  display: flex;
+}
+
+.containerImage {
+  margin-right: 10px;
+}
+
+.contentRepos {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.repos {
+  align-items: center;
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+}
